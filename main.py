@@ -39,6 +39,7 @@ def clear_element() :
     else :
         text_result.delete(1.0, "end")
         text_result.insert(1.0, result)
+        print(result)
         
     
 # clear the entire result value
